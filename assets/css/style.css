@@ -33,6 +33,7 @@ main {
     background-size: cover;
     color: #FFEBD4;
     padding: 100px 0;
+    min-height: 31vh;   /* Make sure hero image is uniform height with or without contact button */
 }
 
 #header .btn {
