@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
 }
 
+main {
+    padding: 2rem 0;
+}
 /* Navbar */
 .navbar-custom {
     color: #3B2F2F;
