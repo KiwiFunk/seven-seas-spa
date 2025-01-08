@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 /* General Styles */
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
+}
 
 /* Navbar */
 .navbar-custom {
@@ -16,16 +20,47 @@
 }
 
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
     background-size: cover;
     color: #FFEBD4;
     padding: 100px 0;
 }
 
-.hero-section h1 {
-    font-family: 'Handlee', cursive;
-}
-
 .btn {
     color: #3B2F2F;
+}
+
+/* Services */
+
+#services .card {
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.322);
+}
+
+
+#services .card img{
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Make sure header doesnt move to two lines to keep uniform size */
+.card h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Media Queries */
+
+
+/* Using Bootstrap Breakpoints */
+@media screen and (min-width: 992px) {
+    #services .card-text {
+        min-height: 100px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #services .card-text {
+        min-height: auto;
+    }
 }
