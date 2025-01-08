@@ -57,6 +57,12 @@ main {
 
 footer {
     background-color: #6F4E37 !important;
+    padding: 1.5rem 0;
+}
+
+footer small,
+footer i {
+    color: #FFEBD4;
 }
 
 
@@ -72,6 +78,6 @@ footer {
 
 @media screen and (min-width: 1400px) {
     #services .card-text {
-        min-height: auto;
+        min-height: 75px;
     }
 }
