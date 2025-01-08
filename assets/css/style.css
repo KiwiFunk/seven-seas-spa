@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Services */
 
 #services .card {
-    box-shadow: 0 0 14px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -47,6 +47,14 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #6F4E37
+
 }
 
 /* Media Queries */
